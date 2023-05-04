@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/styledk.css">
+
+
+</head>
+<script>
+    $(".register-buttton").click(function (e) {
+	e.preventDefault();
+	$(".registred").slideDown(600);
+	$(".wrapper").slideUp(600);
+});
+
+$(".reset").click(function (e) {
+	e.preventDefault();
+	$(".registred").slideUp(600);
+	$(".wrapper").slideDown(600);
+});
+
+$(".btn").click(function (e) {
+	e.preventDefault();
+	$(".login--content").slideDown(600);
+	$(".register--content").slideUp(600);
+});
+
+$(".btn-reg").click(function (e) {
+	e.preventDefault();
+	$(".login--content").slideUp(600);
+	$(".register--content").slideDown(600);
+});
+
+</script>
+<body>
+    <div class="content">
+
+        <div class="wrapper">
+    
+            <div class="register--content">
+    
+                <div class="login--button">
+                    <span>Nếu bạn đã có tài khoản</span>
+                    <a class="btn" data-popup-open="register-popup" href="http://127.0.0.1:5555/So37/html/dangnhap.html">Đăng nhập</a>
+                </div>
+    
+                <h1>Tạo một tài khoản mới</h1>
+                <div class="social">
+                    <a href=""><span class="facebook-icon"><i class="fa fa-facebook"></i></span>Liên kết với <strong>Facebook</strong></a>
+                </div>
+    
+                <div class="via-email">
+                    <span>hoặc email của bạn</span>
+                </div>
+    
+                <div class="name">
+                    <input type="text" class="inputText" required />
+                    <span class="floating-label">Tên của bạn</span>
+                </div>
+    
+                <div class="email">
+                    <input type="text" class="inputText" required />
+                    <span class="floating-label">Email của bạn</span>
+                </div>
+    
+                <div class="password">
+                    <input type="text" class="inputText" required />
+                    <span class="floating-label">Mật khẩu</span>
+                </div>
+    
+                <input type="submit" class="register-buttton" value="Sing Up" name="register">
+            </div>
+    
+            <div class="login--content">
+    
+                <div class="login--button">
+                    <span>tạo tài khoản mới</span>
+                    <a class="btn-reg" data-popup-open="register-popup" href="#">Đăng ký</a>
+                </div>
+                <h1>Login to your account</h1>
+                <div class="social">
+                    <a href=""><span class="facebook-icon"><i class="fa fa-facebook"></i></span>Login with <strong>Facebook</strong></a>
+                </div>
+    
+                <div class="via-email">
+                    <span>or via email</span>
+                </div>
+    
+                <div class="email">
+                    <input type="text" class="inputText" required />
+                    <span class="floating-label">Your email</span>
+                </div>
+    
+                <div class="password">
+                    <input type="text" class="inputText" required />
+                    <span class="floating-label">Your password</span>
+                </div>
+                <span>Reset your pasword</span>
+    
+                <input type="submit" class="register-buttton" value="Login" name="Login">
+    
+            </div>
+    
+        </div>
+    
+        <div class="registred">
+            <h1>Great Job</h1>
+            <button class="reset">Reset</button>
+        </div>
+    
+    </div>
+</body>
+</html>
