@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <!--Tao thuong hieu va menu-->
+    <div class="container "> 
+        <!--Nhan-->
+        <a  href="">
+            <img class="navbar-brand-item mx-auto d-block" src="../img/Capture.PNG" alt="">
+        </a> 
+        <!--Menu-->
+            <nav class="navbar navbar-expand-lg  navbar-light bg-light sticky-top">
+                <div class="navbar-collapse collapse show" id="navbar">
+                    <ul class="navbar-nav">
+                        <!--Trang chu-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="trangchu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Trang chủ</a>
+                            <div class="dropdown-menu" aria-labelledby="trangchu">
+                                <a class="dropdown-item" href="#">Trang chính</a>
+                                <a class="dropdown-item" href="#">Trang mua sắm</a>
+                                <a class="dropdown-item" href="#">Trang giới thiệu</a>
+                            </div>
+                        </li>
+                        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="thoisuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thời sự
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="thoisuDropdown">
+                                    <a class="dropdown-item" href="#">Tin nóng</a>
+                                    <a class="dropdown-item" href="#">Tin mới</a>
+                                    <a class="dropdown-item" href="#">Tin trong ngày</a>
+                                    <a class="dropdown-item" href="#">Tin trong tuần</a>
+                                    <a class="dropdown-item" href="#">Tin chính trị</a>
+                                    <a class="dropdown-item" href="#">Tin kinh tế</a>
+                                    <a class="dropdown-item" href="#">Tin giáo dục </a>
+                                    <a class="dropdown-item" href="#">Tin quân sự</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="thoisuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thế giới 
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="thoisuDropdown">
+                                    <a class="dropdown-item" href="#">Tin nóng</a>
+                                    <a class="dropdown-item" href="#">Tin mới</a>
+                                    <a class="dropdown-item" href="#">Tin trong ngày</a>
+                                    <a class="dropdown-item" href="#">Tin trong tuần</a>
+                                    <a class="dropdown-item" href="#">Tin chính trị</a>
+                                    <a class="dropdown-item" href="#">Tin kinh tế</a>
+                                    <a class="dropdown-item" href="#">Tin giáo dục </a>
+                                    <a class="dropdown-item" href="#">Tin quân sự</a>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="">Video</a>
+
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="">Chủ đề</a>
+
+                            </li>
+
+                            <div class="col ml-auto">
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+                                </form>
+
+                            </div>
+                            
+
+
+                    </ul>
+                    
+
+                </div>
+
+            </nav>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg " style="float: right;">
+                    <ul class="navbar-nav">
+                        <img src="../img/chiso/Facebook.png" alt="" style="width: 20px;">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="dangnhap.html">Đăng nhập</a>
+    
+                        </li>
+                    </ul>
+    
+                </nav>
+            </div>
+            <div class="text-danger font-weight-bold">
+                <h2>Tin nóng đáng chú ý </h2>
+            </div>
+            <div class="row">
+                    <div class="col-lg-6 col-12 col md-4 col mt-4">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                <a href="tainanHaNoi.html">
+                                    <figure>
+                                        <img src="../img/anh giao thong.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Tai nạn nghiêm trọng tại Hà Nội khiến 16 người bị thương nghiêm trọng
+                                        </figcaption>
+                                        
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="caykho1.html">
+                                    <figure>
+                                        <img src="../img/cay-xanh-chet-kho-tren-duong-huynh-thuc-khang-keo-dai-2-16803995389678631728.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Cây xanh chết khô trên đường phố Hà Nội kéo dài tại đường Huỳnh Khúc
+                                        </figcaption>
+    
+                                    </figure>
+                                </a>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <a href="baotondongvat.html">
+                                    <figure>
+                                        <img src="../img/kiem lam.png" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Kiểm lâm kiểm tra người dân về động vật hoang dã 
+                                        </figcaption>
+    
+                                    </figure>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-1">
+
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="">
+                            <figure>
+                                <img  src="../img/them/1.jpeg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                <figcaption class="figure-caption text-center text-dark ">
+                                    Nhân lực ngành an toàn thông tin lương cao, cơ hội việc làm rộng mở
+                                </figcaption>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="../img/them/a-1-trang-16-17-124-16831269438421254733779-158-0-1408-2000-crop-16831269631871167917522.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                <figcaption class="figure-caption text-center text-dark ">
+                                    Đăng ký dự thi tốt nghiệp THPT trực tuyến: Những quy định phải 'nằm lòng'
+                                </figcaption>
+                        </a>
+                        
+
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                Danh sách tin tức
+                            </div>
+                            <ul class="list-group list-group-flush overflow-auto" style="max-width: 200px;">
+                                <a href=""><li class="list-group-item list-group-item-action">
+                                    - Giá xăng dầu hôm nay 4.5.2023: Chiết khấu vọt lên 2.500 đồng/lít trước giờ điều chỉnh giá
+                                </li></a>
+                                <a href=""><li class="list-group-item list-group-item-action">
+                                    - Hơn 1.200 ca cấp cứu tại Bệnh viện Chợ Rẫy trong 5 ngày nghỉ lễ
+                                </li></a>
+                                <a href=""><li class="list-group-item list-group-item-action">
+                                    - Tạm giữ kẻ trói tay bảo vệ, trộm tài sản nhà hàng Texas Chicken
+                                </li></a>
+                                <a href=""><li class="list-group-item list-group-item-action">
+                                    - Thống nhất lực lượng an ninh cơ sở 300.000 người, mỗi tỉnh chi 28,8 tỉ đồng/năm
+                                </li></a>
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                    <hr>
+                    <div class="col-sm-6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Nâng cao hiệu quả hợp tác Việt Nam - Cuba</h5>
+                                        <p class="card-text">Nhận lời mời của T.Ư Đảng ta, Đoàn đại biểu cấp cao Đảng Cộng sản Cuba do Ủy viên Bộ Chính trị, Thường trực Ban Bí thư Đảng Cộng sản...</p>
+                                        <a href="#" class="btn btn-primary">Đọc tiếp</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Chiến sự ngày 434: Bước ngoặt mới sau cáo buộc Ukraine tấn công Điện Kremlin?</h5>
+                                        <p class="card-text">Chiến sự tại Ukraine đối diện khả năng xảy ra nhiều diễn biến mới sau khi Nga cáo buộc Ukraine âm mưu sát hại Tổng thống Vladimir Putin, dù...</p>
+                                        <a href="#" class="btn btn-primary">Đọc tiếp</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                <h5 class="card-title">Cơ hội nào cho đường sắt?</h5>
+                                <p class="card-text">Từ khi thi hành luật Đường sắt 2017 tới nay, không có thêm 1 km đường sắt quốc gia mới nào được xây dựng. Song đường sắt...</p>
+                                <a href="#" class="btn btn-primary">Đọc tiếp</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+
+                    </div>
+
+                    <div class="col-lg-12 col-sm-12 bg-primary">
+                        <p class="text-light font-weight-bold">
+                            !! Tin nóng đáng chú ý ngày hôm nay
+                        </p>
+
+                    </div> 
+                    <div class="row row1">
+                        <div class="col-sm-2">
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/0a4b0ade143acb64922b-1683168306303559192129-163-0-894-1170-crop-1683168319428185158043.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        Tạm giữ kẻ trói tay bảo vệ, trộm tài sản nhà hàng Texas Chicken
+                                    </figcaption>
+                            </a>
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/2023-05-03t133536z536547051rc21r0ao1bcvrtrmadp3syria-iran-1683165012133164186531-21-0-1271-2000-crop-1683165207253766862100.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        Tổng thống Iran lần đầu thăm Syria sau 12 năm nội chiến
+                                    </figcaption>
+                            </a>
+
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/2023-05-03t192845z570108666rc27r0ak2b8ertrmadp3usa-economy-fed-16831603698421661895117-0-0-1250-2000-crop-1683160489705989940936.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        Fed tăng lãi suất lần thứ 10 liên tiếp
+                                    </figcaption>
+                            </a>
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/chay-xe-1683164565405522147824-0-0-603-965-crop-16831647661062116145925.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        Xe thư báo bốc cháy tại nút giao cao tốc Trung Lương - Mỹ Thuận
+                                    </figcaption>
+                            </a>
+
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/edit-screenshot-483-1683163391991505208230-0-0-379-607-crop-16831637568692056696513.png" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        Quảng Trị: Ồn ào sau clip cán bộ BĐBP và CSGT cự cãi nhau chuyện đo nồng...
+                                    </figcaption>
+                            </a>
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/shooting-16831596375072130652589-0-0-1250-2000-crop-16831596720381577701604.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        Xả súng tại trung tâm y tế ở Mỹ, 5 người thương vong
+                                    </figcaption>
+                            </a>
+
+                        </div>
+                        <div class="col-sm-2 col-lg 2">
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/tedros-16831639302071875939785-0-0-1250-2000-crop-16831639681891558646970.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        WHO đưa ra chiến lược chống Covid-19 cho tương lai
+                                    </figcaption>
+                            </a>
+                            <a href="">
+                                <figure>
+                                    <img src="../img/themtg/z4298997740460bd729ebdf3570ad0cb6d844006716dd3-16825972483181204384366-29-229-1032-1835-crop-1683163070714857501222.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                    <figcaption class="figure-caption text-center text-dark ">
+                                        Tình hình dịch bệnh Covid-19 tại TP.HCM 5 ngày nghỉ lễ
+                                    </figcaption>
+                            </a>
+
+                        </div>
+                        <div class="col-sm-4 col-lg-4 border border-primary" >
+                            <h5 class="text-center" style="margin: 5px; padding: 5px;">Động lực nào giúp bạn phát triển </h5>
+                            <div id="imgsmall" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="">
+                                            <figure>
+                                                <img src="../img/dongluc/a2-1683129899195623252457-25-0-1010-1575-crop-1683140844131833297306.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                                <figcaption class="figure-caption text-center text-dark ">
+                                                    Nữ gen Z nghiên cứu thành công mô hình hỗ trợ phát hiện bệnh parkinson
+                                                </figcaption>
+                                        </a>
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="">
+                                            <figure>
+                                                <img src="../img/dongluc/20255047919311775136984885748946960933806506n-1683103732256500765504.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                                <figcaption class="figure-caption text-center text-dark ">
+                                                    Cách bắt nhịp với công việc sau kỳ nghỉ dài ngày
+                                                </figcaption>
+                                        </a>
+
+                                    </div>
+                                    <a class="carousel-control-prev" href="#imgsmall" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#imgsmall" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+            
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            
+
+                        </div>
+                        <div class="col-sm-12 col-lg-12 bg-primary text-white" >
+                            <h2 id="text1">
+                                Tin nhanh 360
+                            </h2>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3 col-lg-3 row1">
+                                <a href="">
+                                    <figure>
+                                        <img src="../img/360/20a1-1682617528831419139401.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Hấp dẫn 2 cuộc thi dự đoán SEA Games 32
+                                        </figcaption>
+                                </a>
+                                <a href="">
+                                    <figure>
+                                        <img src="../img/360/3445725495729776546695109144869774895871950n-16831606657521782996059.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Thắng sốc Philippines, HLV Myanmar e ngại một cầu thủ của đội tuyển nữ Việt Nam
+                                        </figcaption>
+                                </a>
+
+                            </div>
+                            <div class="col-sm-3 col-lg-3 row1">
+                                <a href="">
+                                    <figure>
+                                        <img src="../img/360/anh-12-16823994874391949160180.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Nam bộ nắng nóng gần 39 độ C, TP.HCM hầm hập từ sáng tới chiều tối
+                                        </figcaption>
+                                </a>
+                                <a href="">
+                                    <figure>
+                                        <img src="../img/360/day-noi-mi-gia-re-o-tphcm-1683163630737394552770-0-109-900-1549-crop-16831636437521701045090.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Cô gái 17 tuổi suýt mù vì nối mi và bài học cho người trẻ
+                                        </figcaption>
+                                </a>
+
+                            </div>
+                            <div class="col-sm-3 col-lg-3 row1">
+                                <a href="">
+                                    <figure>
+                                        <img src="../img/360/ha-anh-1-1683161632729545400449.jpg" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            Siêu mẫu Hà Anh tiết lộ cuộc sống hôn nhân với chồng Tây
+                                        </figcaption>
+                                </a>
+                                <a href="">
+                                    <figure>
+                                        <img src="../img/360/messi-neymar-psg-16831603391331558947737.png" class="d-block w-100 trans" alt="Hình ảnh 1">
+                                        <figcaption class="figure-caption text-center text-dark ">
+                                            CLB PSG lên tiếng sau sự cố CĐV nhục mạ Messi và Neymar
+                                        </figcaption>
+                                </a>
+
+                            </div>
+
+                            
+
+                        </div>
+                        <footer class="footer-distributed">
+
+                            <div class="footer-left">
+                
+                                <h3>BaoMoi<span>.com</span></h3>
+                
+                                <p class="footer-links">
+                                    <a href="#" class="link-1">Home</a>
+                                    
+                                    <a href="#">Blog</a>
+                                
+                                    <a href="#">Pricing</a>
+                                
+                                    <a href="#">About</a>
+                                    
+                                    <a href="#">Faq</a>
+                                    
+                                    <a href="#">Contact</a>
+                                </p>
+                
+                                <p class="footer-company-name">Bao Moi by Trito © 2023</p>
+                            </div>
+                
+                            <div class="footer-center">
+                
+                                <div>
+                                    <i class="fa fa-map-marker"></i>
+                                    <p><span>Phường 3,quận Gò Vấp</span> Thành phố Hồ Chí Minh</p>
+                                </div>
+                
+                                <div>
+                                    <i class="fa fa-phone"></i>
+                                    <p>+123456789</p>
+                                </div>
+                
+                                <div>
+                                    <i class="fa fa-envelope"></i>
+                                    <p><a href="trito719@gmail.com">trito719@gmail.com</a></p>
+                                </div>
+                
+                            </div>
+                
+                            <div class="footer-right">
+                
+                                <p class="footer-company-about">
+                                    <span>Một chút về trang</span>
+                                    Trang báo này được tạo bởi Trito, với 1 người tạo ra trang web này nên độ hoàn thiện và chỉnh chu chưa được cao. Xin cảm ơn!
+                                </p>
+                
+                                <div class="footer-icons">
+                
+                                    <a href="https://www.facebook.com/" ><i class="fa fa-facebook"></i></a>
+                                    <a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/"><i class="fa fa-github"></i></a>
+                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-youtube"></i></a>
+                                    
+                
+                                </div>
+                
+                            </div>
+                
+                        </footer>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+                
+                
+</body>
+</html>
